@@ -1,0 +1,42 @@
+.sponsor__area {
+  .sponsor__title {
+    text-align: center;
+    margin: 0 auto 60px;
+  }
+
+  @include breakpoint(max-xxl) {
+    margin: 0 auto 40px;
+  }
+
+  .swiper-wrapper {
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-direction: column; // Stack images vertically
+      align-items: center; // Center align vertically stacked images
+    }
+  }
+}
+
+.sponsor__slide {
+  text-align: center;
+  position: relative;
+  width: 200px;
+
+  img {
+    transition: all 0.4s;
+    max-width: 80%; // Adjust image size for small screens
+    height: auto; // Maintain aspect ratio
+    margin-bottom: 20px; // Add space between images
+
+    @media (max-width: 768px) {
+      max-width: 100%; // Further adjust size for very small screens
+    }
+  }
+
+  &:hover {
+    img {
+      filter: brightness(2);
+    }
+  }
+}
