@@ -1,26 +1,26 @@
-import React from "react";
-import { ArrowUpShort, ArrowRight } from "react-bootstrap-icons";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { ArrowUpShort, ArrowRight } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 const socalList = [
   {
     id: 1,
-    platfrom: "Facebook",
+    platfrom: 'Facebook',
     icon: <ArrowRight />,
   },
   {
     id: 2,
-    platfrom: "Instagram",
+    platfrom: 'Instagram',
     icon: <ArrowRight />,
   },
   {
     id: 3,
-    platfrom: "Dribble",
+    platfrom: 'Dribble',
     icon: <ArrowRight />,
   },
   {
     id: 4,
-    platfrom: "Webflow",
+    platfrom: 'Webflow',
     icon: <ArrowRight />,
   },
 ];
@@ -35,11 +35,8 @@ const Footer = () => {
           <div className="row g-4">
             <div className="col-lg-6">
               <div className="get__content">
-                <p>
-                  Hello, I’m David Matias, Website & User Interface Designer
-                  based in London.
-                </p>
-                <a href="#0">davidmatias333@gmail.com</a>
+                <p>Hello, I’m Muhammad Aown Abbas, Website & Mobile Apps developer based in Pakistan.</p>
+                <a href="#0">aaown344@gmail.com</a>
               </div>
             </div>
             <div className="col-lg-6">
@@ -65,10 +62,10 @@ const Footer = () => {
         <div className="container">
           <div className="copyright">
             <p className="white">
-              Copyright © 2023 {" "}
-              <Link to={"/"} className="base">
-                Matias.
-              </Link>{" "}
+              Copyright © 2024{' '}
+              <Link to={'/'} className="base">
+                Aown Abbas.
+              </Link>{' '}
               All rights reserved.
             </p>
             <ul className="terms">

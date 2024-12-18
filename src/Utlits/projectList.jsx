@@ -4,7 +4,7 @@ import pro3 from "../assets/img/project/pro3.png";
 import pro4 from "../assets/img/project/pro4.png";
 import pro5 from "../assets/img/project/pro5.png";
 import pro6 from "../assets/img/project/pro6.png";
-
+// import cogeter from "../assets/img/project/cogeter.png";
 
 export const projectList = [
     {

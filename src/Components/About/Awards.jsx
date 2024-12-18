@@ -1,37 +1,29 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const awardList = [
   {
     id: 1,
-    awardName: "Site Of The Day",
-    contest: "Css & Animation",
-    year: "2018",
+    awardName: 'Project Awards in Giisty',
+    contest: 'Agora Live Meetings',
+    year: '2020',
   },
   {
     id: 2,
-    awardName: "Best Business Model",
-    contest: "New Strategy",
-    year: "2019",
+    awardName: 'Cyber Security',
+    contest: 'Punjab Universty Lahore',
+    year: '2021',
   },
   {
     id: 3,
-    awardName: "Motion Graphic	",
-    contest: "3D & Visual Effect	",
-    year: "2020",
-  },
-  {
-    id: 4,
-    awardName: "Video Design	",
-    contest: "Css & Animation",
-    year: "2022",
+    awardName: 'Team Lead',
+    contest: 'Beaplex Innovations Pvt. Lmt.',
+    year: '2023',
   },
 ];
 const Awards = () => {
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -39,11 +31,7 @@ const Awards = () => {
   return (
     <div className="awoard__section">
       <div className="container">
-        <div
-          className="award__wraper table-responsive"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-        >
+        <div className="award__wraper table-responsive" data-aos="fade-up" data-aos-duration="2000">
           <table className="table w-100">
             <tbody>
               <tr>
@@ -52,10 +40,7 @@ const Awards = () => {
                 </td>
                 <td className="cusnoe"></td>
                 <td className="text-end">
-                  <a
-                    href="#0"
-                    className="d-flex table__view justify-content-end align-items-center base gap-2"
-                  >
+                  <a href="#0" className="d-flex table__view justify-content-end align-items-center base gap-2">
                     <span>View My Work</span>
                     <i className="bi bi-arrow-right"></i>
                   </a>

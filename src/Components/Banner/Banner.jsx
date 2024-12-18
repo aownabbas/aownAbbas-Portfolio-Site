@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Facebook, Twitter, Linkedin, Globe, Instagram, PlayFill } from 'react-bootstrap-icons';
 
-import bannerMan from '../../assets/img/banner/banner-man.png';
+import bannerMan from '../../assets/img/banner/banner-man.jpg';
 import scrollDown from '../../assets/img/banner/scroll-down.png';
 import dial from '../../assets/img/banner/dial.png';
 import bnArrow from '../../assets/img/banner/bn-arrow.png';
@@ -59,9 +59,9 @@ const Banner = () => {
                 </span>
               </Link>
               <h1>
-                <span className="hone"> Creative Visual</span>
-                <span className="d-block designers" data-text="Designer">
-                  Designer
+                <span className="hone"> Web & Mobile</span>
+                <span className="d-block designers" data-text="Developer">
+                  Developer
                 </span>
               </h1>
               <div className="video__area">
