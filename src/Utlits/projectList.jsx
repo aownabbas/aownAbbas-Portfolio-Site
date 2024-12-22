@@ -10,6 +10,7 @@ import dialink from '../assets/img/project/dialink-app.PNG';
 import people_plus from '../assets/img/project/people-plus.PNG';
 import ebarzaar from '../assets/img/project/ebazaar.PNG';
 import dentalId_landPage from '../assets/img/project/dental-id-landingPage.PNG';
+import pack_craft from '../assets/img/project/pack-craft.PNG';
 
 export const projectList = [
   {
@@ -31,7 +32,7 @@ export const projectList = [
     image: machkosher_web,
     heading: 'Machkosher Website',
     subHeading: 'Website Development',
-    category: ['website', '', 'all'],
+    category: ['website', 'branding_app', 'all'],
   },
 
   {
@@ -62,9 +63,22 @@ export const projectList = [
     subHeading: 'Website Development',
     category: ['los_app', 'landing_page', 'all'],
   },
-  
-  
-  
+  {
+    id: 3,
+    image: pack_craft,
+    heading: 'Pack Craft',
+    subHeading: 'Website Development',
+    category: ['los_app', 'landing_page', 'all'],
+  },
 ];
 
-export const imagesList = [cogeter, ebarzaar, machkosher, machkosher_web, people_plus, dialink];
+export const imagesList = [
+  cogeter,
+  ebarzaar,
+  machkosher,
+  machkosher_web,
+  people_plus,
+  dialink,
+  dentalId_landPage,
+  pack_craft,
+];
