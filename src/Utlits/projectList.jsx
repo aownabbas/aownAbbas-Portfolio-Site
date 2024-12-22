@@ -11,6 +11,7 @@ import people_plus from '../assets/img/project/people-plus.png';
 import ebarzaar from '../assets/img/project/ebazaar.png';
 import dentalId_landPage from '../assets/img/project/dental-id-landingPage.png';
 
+
 export const projectList = [
   {
     id: 1,
