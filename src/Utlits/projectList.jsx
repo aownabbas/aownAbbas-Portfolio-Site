@@ -1,15 +1,15 @@
 // import pro1 from "../assets/img/project/pro1.png";
-import machkosher from '../assets/img/project/machkosher-dashboard.png';
+import machkosher from '../assets/img/project/machkosherDashboard.png';
 import pro3 from '../assets/img/project/pro3.png';
 import pro4 from '../assets/img/project/pro4.png';
 import pro5 from '../assets/img/project/pro5.png';
 import pro6 from '../assets/img/project/pro6.png';
-import cogeter from '../assets/img/project/cogeter-store.png';
-import machkosher_web from '../assets/img/project/machkosher-web.png';
-import dialink from '../assets/img/project/dialink-app.png';
-import people_plus from '../assets/img/project/people-plus.png';
+import cogeter from '../assets/img/project/cogeterStore.png';
+import machkosher_web from '../assets/img/project/machkosherWeb.png';
+import dialink from '../assets/img/project/dialinkApp.png';
+import people_plus from '../assets/img/project/peoplePlus.png';
 import ebarzaar from '../assets/img/project/ebazaar.png';
-import dentalId_landPage from '../assets/img/project/dental-id-landingPage.png';
+import dentalId_landPage from '../assets/img/project/dentalIdLandingPage.png';
 
 
 export const projectList = [
