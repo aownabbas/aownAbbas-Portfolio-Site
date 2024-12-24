@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Facebook, Twitter, Linkedin, Globe, Instagram, PlayFill } from 'react-bootstrap-icons';
 
-import bannerMan from '../../assets/img/banner/banner-man.jpg';
+import bannerMan from '../../assets/img/banner/banner.PNG';
 import scrollDown from '../../assets/img/banner/scroll-down.png';
 import dial from '../../assets/img/banner/dial.png';
 import bnArrow from '../../assets/img/banner/bn-arrow.png';

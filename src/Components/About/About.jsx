@@ -33,7 +33,7 @@ const tabList = [
 ];
 
 const About = () => {
-  const [isTabActive, setIsTabAative] = useState('about');
+  const [isTabActive, setIsTabAative] = useState('skills');
 
   useEffect(() => {
     AOS.init();
