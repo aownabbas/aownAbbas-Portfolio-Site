@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import { List, ArrowRight } from 'react-bootstrap-icons';
 
 import Drawer from '../Drawer/Drawer';
-import logo from '../../../assets/img/logo/logo.PNG';
+import logo from '../../../assets/img/logo/logo.png';
 
 const menuList = [
   {
