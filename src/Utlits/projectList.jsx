@@ -21,14 +21,14 @@ export const projectList = [
     category: ['branding_app', 'website', 'all'],
   },
   {
-    id: 7,
+    id: 2,
     image: dentalId_landPage,
     heading: 'dentalId landing Page',
     subHeading: 'Website Development',
     category: ['landing_page', 'website', 'all'],
   },
   {
-    id: 4,
+    id: 3,
     image: machkosher_web,
     heading: 'Machkosher Website',
     subHeading: 'Website Development',
@@ -36,14 +36,14 @@ export const projectList = [
   },
 
   {
-    id: 5,
+    id: 4,
     image: dialink,
     heading: 'Dialink Admin Dashboard',
     subHeading: 'Website Development',
     category: ['website', 'landing_page', 'all'],
   },
   {
-    id: 2,
+    id: 5,
     image: ebarzaar,
     heading: 'E-Bazaar Online Store',
     subHeading: 'Website Development',
@@ -57,14 +57,14 @@ export const projectList = [
     category: ['', 'website', 'all'],
   },
   {
-    id: 3,
+    id: 7,
     image: machkosher,
     heading: 'Machkosher Dashboard',
     subHeading: 'Website Development',
     category: ['los_app', 'landing_page', 'all'],
   },
   {
-    id: 3,
+    id: 8,
     image: pack_craft,
     heading: 'Pack Craft',
     subHeading: 'Website Development',

@@ -13,7 +13,7 @@ const serviceList = [
     id: '01',
     heading: 'Website Developer',
     subHeading: 'Developer',
-    para: 'I am a senior website developer with 5+ years of experience in development and design using ReactJS, NextJS, and TypeScript and Nodsjs. I have completed 15+ projects, including integrations with multiple third-party services and REST APIs.',
+    para: 'I am a senior website developer with 5+ years of experience in development and design using ReactJS, NextJS, and TypeScript and Nodejs. I have completed 15+ projects, including integrations with multiple third-party services and REST APIs.',
   },
   {
     id: '02',
@@ -21,7 +21,6 @@ const serviceList = [
     subHeading: 'React Native Developer',
     para: 'I am a senior mobile app developer with 5+ years of experience in designing and developing Android and iOS applications using React Native. I have completed more than 10 apps, including integrations with multiple third-party services and REST APIs.',
   },
-  
 ];
 const Services = ({ isHeading }) => {
   return (

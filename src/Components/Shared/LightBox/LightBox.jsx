@@ -25,7 +25,7 @@ const Lightbox = ({ images, setLightboxOpen, currentId }) => {
           </i>
         </button>
         <div className="image-container">
-          <img
+          <img width={500} height={400}
             src={images[currentImageIndex]}
             alt={`Image ${currentImageIndex + 1}`}
           />
