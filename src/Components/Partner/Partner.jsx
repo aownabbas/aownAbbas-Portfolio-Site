@@ -30,17 +30,17 @@ const partnerList = [
     id: 4,
     image: partner4,
   },
-  {
-    id: 5,
-    image: partner1,
-  },
+  // {
+  //   id: 5,
+  //   image: partner1,
+  // },
 ];
 const Partner = () => {
   return (
     <>
       <div className="sponsor__area pt-120">
         <h4 className="sponsor__title" data-aos="fade-down" data-aos-duration="1000">
-          More than 100+ companies trusted us worldwide
+          More than 20+ companies trusted us worldwide
         </h4>
         <div className="swiper sponsor__wrap">
           <Swiper spaceBetween={50} slidesPerView={5} loop={true} modules={[Pagination, Autoplay, Navigation]}>

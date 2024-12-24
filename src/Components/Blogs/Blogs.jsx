@@ -42,7 +42,7 @@ const Blogs = () => {
           <div className="col-xl-8 col-lg-9">
             <div className="blog__rightwrap">
               <div className="service__uniquewrap">
-                {blogsList.slice(0, 3).map(({ id, date, image, heading }, index) => (
+                {blogsList.slice(0, 4).map(({ id, date, image, heading }, index) => (
                   <Blog key={id} date={date} image={image} heading={heading} index={index} />
                 ))}
               </div>

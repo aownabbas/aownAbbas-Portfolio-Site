@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const PageHeader = ({heading, page}) => {
+const PageHeader = ({ heading, page }) => {
   return (
     <div className="container pt-120 pb-120">
       <div className="row g-4 justify-content-center">

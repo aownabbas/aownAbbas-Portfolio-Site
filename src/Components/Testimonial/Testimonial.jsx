@@ -1,53 +1,59 @@
-import React from "react";
-import { StarFill } from "react-bootstrap-icons";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react';
+import { StarFill } from 'react-bootstrap-icons';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import quote from "../../assets/img/testimonial/quote.png";
-import man1 from "../../assets/img/testimonial/man1.png";
-import man2 from "../../assets/img/testimonial/man2.png";
-import man3 from "../../assets/img/testimonial/man3.png";
-import testiArrow from "../../assets/img/testimonial/testi-arrow.png";
-import Partner from "../Partner/Partner";
+import quote from '../../assets/img/testimonial/quote.png';
+import man1 from '../../assets/img/testimonial/man1.png';
+import man2 from '../../assets/img/testimonial/man2.png';
+import man3 from '../../assets/img/testimonial/man3.png';
+import testiArrow from '../../assets/img/testimonial/testi-arrow.png';
+import Partner from '../Partner/Partner';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const reviewList = [
   {
     id: 1,
-    name: "Shawn Beltran",
-    position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
-    stars: [<StarFill className="ratting fz-20" />],
+    name: 'Veljko Markovic, Leonic',
+    position: 'Business Owner',
+    review: `All the Best`,
+    stars: [
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+    ],
   },
   {
     id: 2,
-    name: "John Methcel",
-    position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
-    stars: [<StarFill className="ratting fz-20" />],
+    name: 'Mr Hammad',
+    position: 'Company Owner',
+    review: `Excellent work, I recommend!`,
+    stars: [
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+    ],
   },
   {
     id: 3,
-    name: "Nethon Jr",
-    position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
-    stars: [<StarFill className="ratting fz-20" />],
+    name: 'Nethon Jr',
+    position: 'Company Owner',
+    review: `"An exceptional software engineer with outstanding problem-solving skills, delivering high-quality work with precision and professionalism!"`,
+    stars: [
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+      <StarFill className="ratting fz-20" />,
+    ],
   },
 ];
 const Testimonial = () => {
@@ -63,11 +69,7 @@ const Testimonial = () => {
             <span className="d-block"> Customer </span>
           </h2>
         </div>
-        <div
-          className="testimonial__v1wrap pb-120"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <div className="testimonial__v1wrap pb-120" data-aos="fade-up" data-aos-duration="1000">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="swiper testimonial__slidewrap">
@@ -77,7 +79,7 @@ const Testimonial = () => {
                   speed={3000}
                   pagination={{
                     clickable: true,
-                    el: ".swiper-pagination3",
+                    el: '.swiper-pagination3',
                   }}
                   autoplay={{
                     delay: 2000,
@@ -89,7 +91,7 @@ const Testimonial = () => {
                   {reviewList.map(({ id, name, position, review, stars }) => {
                     return (
                       <SwiperSlide key={id}>
-                        <div  className="test__slide swiper-slide">
+                        <div className="test__slide swiper-slide">
                           <div className="d-flex mb-40 align-items-center gap-2">
                             {stars.map((star, index) => (
                               <i key={index}>{star}</i>
