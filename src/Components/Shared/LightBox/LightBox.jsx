@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { XLg, ChevronRight, ChevronLeft } from "react-bootstrap-icons";
+import React, { useState } from 'react';
+import { XLg, ChevronRight, ChevronLeft } from 'react-bootstrap-icons';
 const Lightbox = ({ images, setLightboxOpen, currentId }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(currentId);
 
@@ -8,9 +8,7 @@ const Lightbox = ({ images, setLightboxOpen, currentId }) => {
   };
 
   const prevImage = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+    setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
   const closeLightbox = () => {
@@ -25,10 +23,7 @@ const Lightbox = ({ images, setLightboxOpen, currentId }) => {
           </i>
         </button>
         <div className="image-container">
-          <img width={500} height={400}
-            src={images[currentImageIndex]}
-            alt={`Image ${currentImageIndex + 1}`}
-          />
+          <img width={400} height={400} src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
         </div>
         <div className="image_count">
           {currentImageIndex + 1} / {images.length}
@@ -36,7 +31,7 @@ const Lightbox = ({ images, setLightboxOpen, currentId }) => {
       </div>
       <div className="lightbox__btns">
         <button className="prev__button" onClick={prevImage}>
-          <ChevronLeft/>
+          <ChevronLeft />
         </button>
         <button className="next__button" onClick={nextImage}>
           <i>

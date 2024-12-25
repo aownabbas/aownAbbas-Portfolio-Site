@@ -74,11 +74,11 @@ export const projectList = [
 
 export const imagesList = [
   cogeter,
-  ebarzaar,
-  machkosher,
-  machkosher_web,
-  people_plus,
-  dialink,
   dentalId_landPage,
+  machkosher_web,
+  dialink,
+  ebarzaar,
+  people_plus,
+  machkosher,
   pack_craft,
 ];
