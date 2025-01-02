@@ -1269,7 +1269,7 @@ p {
       transition: all 0.4s;
     }
     .textmore {
-      color: #282828;
+      color: #ffffff;
       font-size: 18px;
       font-style: normal;
       font-weight: 500;
@@ -1303,7 +1303,7 @@ p {
   }
   &:hover {
     .textmore {
-      color: var(--title);
+      color: var(--white);
     }
     i {
       color: var(--title);

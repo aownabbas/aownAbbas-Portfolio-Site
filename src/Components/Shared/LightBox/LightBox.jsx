@@ -23,7 +23,7 @@ const Lightbox = ({ images, setLightboxOpen, currentId }) => {
           </i>
         </button>
         <div className="image-container">
-          <img width={400} height={400} src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
+          <img width={400} src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
         </div>
         <div className="image_count">
           {currentImageIndex + 1} / {images.length}

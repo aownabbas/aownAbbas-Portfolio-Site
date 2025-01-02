@@ -33,6 +33,7 @@
 
   &:hover {
     border-color: #57A7E8;
+    color: var(--subtitle);
 
     &::before {
       bottom: 0;

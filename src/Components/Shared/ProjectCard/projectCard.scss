@@ -13,8 +13,16 @@
       border-radius: 10px;
       overflow: hidden;
       // object-fit: cover;
+      height: 360px;
+
+      @media (max-width: 768px) {
+        object-fit: contain;
+        height: 220px;
+      }
     }
   }
+
+
 
 
   .content {

@@ -11,7 +11,7 @@ const contactInfo = [
   {
     id: 1,
     system: 'Email',
-    contact: 'aaown344@gmail.com',
+    contact: 'mmaoun344@gmail.com',
   },
   {
     id: 2,

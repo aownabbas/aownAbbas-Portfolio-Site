@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="col-lg-6">
               <div className="get__content">
                 <p>Hello, I’m Muhammad Aown Abbas, Website & Mobile Apps developer based in Pakistan.</p>
-                <a href="#0">aaown344@gmail.com</a>
+                <a href="#0">mmaoun344@gmail.com</a>
               </div>
             </div>
             <div className="col-lg-6">

@@ -37,7 +37,8 @@ const menuList = [
       },
       {
         id: 2,
-        path: '/service-details',
+        // path: '/service-details',
+        path: '',
         name: 'Service Details',
       },
     ],
@@ -53,18 +54,18 @@ const menuList = [
     path: '/',
     section: '#blog',
     name: 'Blog',
-    dropDown: [
-      {
-        id: 1,
-        path: '/all-blog',
-        name: 'Blog',
-      },
-      {
-        id: 2,
-        path: '/blog-details',
-        name: 'Blog Details',
-      },
-    ],
+    // dropDown: [
+    //   {
+    //     id: 1,
+    //     path: '/all-blog',
+    //     name: 'Blog',
+    //   },
+    //   {
+    //     id: 2,
+    //     path: '/blog-details',
+    //     name: 'Blog Details',
+    //   },
+    // ],
   },
   {
     id: 7,

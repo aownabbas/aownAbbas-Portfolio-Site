@@ -22,7 +22,7 @@ const Metting = () => {
                 </span>
                 <span className="box">
                   <span className="ptext fz-18 mb-1 d-block"> Email </span>
-                  <a href="#0"> aaown344@gmail.com </a>
+                  <a href="#0"> mmaoun344@gmail.com </a>
                 </span>
               </div>
               <div className="about__contbox__item pb-30 pt-30" data-aos="fade-up" data-aos-duration="1500">

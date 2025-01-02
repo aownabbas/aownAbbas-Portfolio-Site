@@ -6,7 +6,7 @@ const ProjectCard = ({ image, heading, subHeading, index, openLightbox, navigate
   return (
     <div className={`project__item  ${index !== 2 && 'cus__mb60'}`} data-aos="fade-up" data-aos-duration="1000">
       <div onClick={() => openLightbox(index)} className="thumb mb-30 imgc">
-        <img src={image} alt="img" width={500} height={370} />
+        <img src={image} alt="img" width={500}  />
       </div>
       <div className="content d-flex align-items-center justify-content-between gap-2">
         <Link to={navigate} className="left__cont">
