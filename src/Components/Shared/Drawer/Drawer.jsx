@@ -1,12 +1,12 @@
-import React from "react";
-import { XLg, ChevronRight } from "react-bootstrap-icons";
-import logo from "../../../assets/img/logo/logo.png";
-import { socialIcons } from "../../../Utlits/socilIcons";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { XLg, ChevronRight } from 'react-bootstrap-icons';
+import logo from '../../../assets/img/logo/logo.png';
+import { socialIcons } from '../../../Utlits/socilIcons';
+import { Link } from 'react-router-dom';
 
 const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
   return (
-    <div className={`subside__barmenu ${isSidebarActive ? "active" : ""}`}>
+    <div className={`subside__barmenu ${isSidebarActive ? 'active' : ''}`}>
       <div
         onClick={() => setIsSidebarActive(false)}
         className="remove__click d-flex justify-content-center align-items-center"
@@ -16,32 +16,30 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
         </i>
       </div>
       <div className="sub__contact__wrapper d-grid">
-        <Link to={""} className="side-logo">
+        <Link to={''} className="side-logo">
           <img src={logo} alt="img" className="logo" />
         </Link>
         <p>
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-          consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam,
-          exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam
-          nihil
+          I'm Aown Abbas, I'm a Website & Mobile App developer, Currently residing in the Multan Pakistan, I operates
+          globally and is ready to take on any development challenge.
         </p>
         <div className="sub__contact-left d-grid">
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> address </span>
-              <span className="textp"> Victoria Street London, </span>
+              <span className="textp"> Multan Punjab Pakistan, </span>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> email </span>
-              <Link className="textp"> matias999@.com </Link>
+              <Link className="textp"> aaown344@gmail.com </Link>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> call now </span>
-              <Link className="textp"> +92 305754034 </Link>
+              <Link className="textp"> +92 3015754034 </Link>
             </div>
           </div>
         </div>
@@ -56,10 +54,7 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
             ))}
           </ul>
         </div>
-        <Link
-          to={""}
-          className="d-flex justify-content-center fw-500 cmn--btn align-items-center gap-2"
-        >
+        <Link to={''} className="d-flex justify-content-center fw-500 cmn--btn align-items-center gap-2">
           <span>
             <i>
               <ChevronRight />
