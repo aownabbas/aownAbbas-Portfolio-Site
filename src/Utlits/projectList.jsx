@@ -11,6 +11,8 @@ import people_plus from '../assets/img/project/people-plus.PNG';
 import ebarzaar from '../assets/img/project/ebazaar.PNG';
 import dentalId_landPage from '../assets/img/project/dental-id-landingPage.PNG';
 import pack_craft from '../assets/img/project/pack-craft.PNG';
+import giisty from '../assets/img/project/giisty.PNG';
+import hives from '../assets/img/project/hives.PNG';
 
 export const projectList = [
   {
@@ -44,31 +46,45 @@ export const projectList = [
   },
   {
     id: 5,
+    image: giisty,
+    heading: 'Tuitify App',
+    subHeading: 'Mobile App Development',
+    category: ['', 'los_app', 'all'],
+  },
+  {
+    id: 6,
     image: ebarzaar,
     heading: 'E-Bazaar Online Store',
     subHeading: 'Website Development',
     category: ['branding_app', 'website', 'all'],
   },
   {
-    id: 6,
+    id: 7,
     image: people_plus,
     heading: 'PeoplePlus',
     subHeading: 'Website Development',
     category: ['', 'website', 'all'],
   },
   {
-    id: 7,
+    id: 8,
     image: machkosher,
     heading: 'Machkosher Dashboard',
     subHeading: 'Website Development',
-    category: ['los_app', 'landing_page', 'all'],
+    category: ['', 'landing_page', 'all'],
   },
   {
-    id: 8,
+    id: 9,
     image: pack_craft,
     heading: 'Pack Craft',
     subHeading: 'Website Development',
     category: ['los_app', 'landing_page', 'all'],
+  },
+  {
+    id: 10,
+    image: hives,
+    heading: 'Dealer Hive App',
+    subHeading: 'Mobile App Development',
+    category: ['los_app', '', 'all'],
   },
 ];
 
@@ -77,8 +93,10 @@ export const imagesList = [
   dentalId_landPage,
   machkosher_web,
   dialink,
+  giisty,
   ebarzaar,
   people_plus,
   machkosher,
   pack_craft,
+  hives,
 ];
