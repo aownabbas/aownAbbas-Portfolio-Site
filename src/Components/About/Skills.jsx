@@ -7,6 +7,7 @@ import boot from '../../assets/img/about/boot.png';
 import nextjs from '../../assets/img/about/nextjs.jpg';
 import Typescript from '../../assets/img/about/typescript.png';
 import react_native from '../../assets/img/about/react-native.jpg';
+import nodejs from '../../assets/img/about/node.PNG';
 
 const skillsList = [
   {
@@ -44,6 +45,12 @@ const skillsList = [
     skill: 'Bootstrap',
     percentage: '97%',
     image: boot,
+  },
+  {
+    id: 5,
+    skill: 'NodeJs',
+    percentage: '100%',
+    image: nodejs,
   },
 ];
 const Skills = ({ isTabActive }) => {
