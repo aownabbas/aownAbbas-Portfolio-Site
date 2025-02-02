@@ -7,7 +7,7 @@ import boot from '../../assets/img/about/boot.png';
 import nextjs from '../../assets/img/about/nextjs.jpg';
 import Typescript from '../../assets/img/about/typescript.png';
 import react_native from '../../assets/img/about/react-native.jpg';
-import nodejs from '../../assets/img/about/node.PNG';
+import nodejs from '../../assets/img/about/node.png';
 
 const skillsList = [
   {
