@@ -77,7 +77,7 @@ const Protfolio = () => {
                   image={image}
                   heading={heading}
                   subHeading={subHeading}
-                  openLightbox={openLightbox}
+                  // openLightbox={openLightbox}
                   index={index}
                   navigate="/protfolio-details"
                 />
